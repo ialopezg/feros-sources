@@ -30,7 +30,7 @@ ALLOWED_PATTERNS = [
     re.compile(r"docs/adr/[A-Za-z0-9._-]+\.md"),
     re.compile(r"src/(official|experimental)/[a-z0-9-]+/[a-z0-9][a-z0-9.-]*\.toml"),
     re.compile(r"src/(repository|catalog)\.toml"),
-    re.compile(r"scripts/(validate|build_site|release|package)\.py"),
+    re.compile(r"scripts/(validate|build_site|release|package|version)\.py"),
     re.compile(r"\.github/CODEOWNERS"),
     re.compile(r"\.github/dependabot\.yml"),
     re.compile(r"\.github/workflows/[A-Za-z0-9._-]+\.yml"),
