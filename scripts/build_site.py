@@ -100,9 +100,10 @@ def main() -> int:
 <body>
   <h1>FeROS Sources</h1>
   <p>Versioned sources of supported platforms for the FeROS ecosystem.</p>
-  <p class="note">This site mirrors the latest approved state of <code>main</code>.
-  It is not a release and does not authenticate the publisher. A checksum
-  detects changes; it is not a signature.</p>
+  <p class="note">This site reflects the last successfully deployed published
+  FeROS Sources release. Development changes on <code>main</code> and draft
+  releases do not update it. Checksums detect changes; they are not digital
+  signatures.</p>
   <p>Commit {commit_link}, catalog version {esc(str(catalog.get("catalog_version")))},
   schema {esc(str(catalog.get("schema_version")))}.</p>
   <h2>Files</h2>
