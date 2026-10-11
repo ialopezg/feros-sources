@@ -32,6 +32,7 @@ ALLOWED_PATTERNS = [
     re.compile(r"src/(repository|catalog)\.toml"),
     re.compile(r"scripts/(validate|build_site|release|package)\.py"),
     re.compile(r"\.github/CODEOWNERS"),
+    re.compile(r"\.github/dependabot\.yml"),
     re.compile(r"\.github/workflows/[A-Za-z0-9._-]+\.yml"),
     re.compile(r"\.github/rulesets/[A-Za-z0-9._-]+\.json"),
 ]
